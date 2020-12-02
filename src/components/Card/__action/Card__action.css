@@ -1,0 +1,13 @@
+.card__action {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: 0.4em;
+  text-transform: uppercase;
+  color: #000000;
+  opacity: 0.5;
+  padding: 0;
+  margin: 0;
+}

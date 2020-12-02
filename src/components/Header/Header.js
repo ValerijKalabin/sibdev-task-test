@@ -5,7 +5,7 @@ import './__input/Header__input.css';
 import React from 'react';
 import CategoryContext from '../../contexts/CategoryContext';
 
-function Header() {
+function Header({ onInputChange }) {
   const { text } = React.useContext(CategoryContext);
 
   return (
@@ -17,6 +17,7 @@ function Header() {
             type="text"
             name="search"
             placeholder="Какой магазин вам нужен?"
+            onChange={onInputChange}
           />
         </label>
     </header>

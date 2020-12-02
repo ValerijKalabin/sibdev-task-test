@@ -1,0 +1,18 @@
+.card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #FFFFFF;
+  overflow: hidden;
+  height: 160px;
+  padding: 0;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  margin: 0;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+}
+
+.card:hover {
+  border: 1px solid red;
+}
