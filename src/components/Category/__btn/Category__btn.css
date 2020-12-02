@@ -1,0 +1,21 @@
+.category__btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: transparent;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0 40px 0 37px;
+  outline: none;
+  border: none;
+  border-left: 3px solid transparent;
+  margin: 0;
+  cursor: pointer;
+  opacity: 1;
+  transition: opacity 0.2s linear;
+}
+
+.category__btn:hover {
+  opacity: 0.5;
+}

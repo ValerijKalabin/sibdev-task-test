@@ -1,0 +1,7 @@
+.aside__logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 41px;
+    margin: 0;
+}
