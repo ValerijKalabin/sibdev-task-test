@@ -1,4 +1,7 @@
 import './Header.css';
+import './__title/Header__title.css';
+import './__label/Header__label.css';
+import './__input/Header__input.css';
 import categories from '../../data/categories';
 import React from 'react';
 import CategoryContext from '../../contexts/CategoryContext';
@@ -8,7 +11,10 @@ function Header() {
 
   return (
     <header className="header">
-        <h1>{categories[activeCategory]}</h1>
+        <h2 className="header__title">{categories[activeCategory]}</h2>
+        <label className="header__label">
+          <input className="header__input" type="text" name="search" placeholder="Какой магазин вам нужен?" />
+        </label>
     </header>
   );
 }
