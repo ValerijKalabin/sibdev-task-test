@@ -9,3 +9,7 @@
   padding: 0;
   margin: 0 0 0 12px;
 }
+
+.aside__text_active {
+  color: #34ABE0;
+}

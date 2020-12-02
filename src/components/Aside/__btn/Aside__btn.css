@@ -19,3 +19,7 @@
 .aside__btn:hover {
   opacity: 0.5;
 }
+
+.aside__btn_active {
+  border-left: 3px solid #34ABE0;
+}
