@@ -1,4 +1,4 @@
-.category__btn {
+.aside__btn {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -16,6 +16,6 @@
   transition: opacity 0.2s linear;
 }
 
-.category__btn:hover {
+.aside__btn:hover {
   opacity: 0.5;
 }
