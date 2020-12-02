@@ -1,0 +1,7 @@
+.category__stroke {
+  stroke: #333333;
+}
+
+.category__stroke_active {
+  stroke: #34ABE0;
+}

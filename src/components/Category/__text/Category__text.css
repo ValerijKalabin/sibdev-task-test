@@ -1,4 +1,4 @@
-.aside__text {
+.category__text {
   font-family: 'Open Sans', sans-serif;
   font-style: normal;
   font-weight: 600;
@@ -10,6 +10,6 @@
   margin: 0 0 0 12px;
 }
 
-.aside__text_active {
+.category__text_active {
   color: #34ABE0;
 }

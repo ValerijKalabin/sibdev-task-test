@@ -7,16 +7,16 @@ import Main from '../Main/Main';
 import CategoryContext from '../../contexts/CategoryContext';
 
 function App() {
-  const [activeCategory, setActiveCategory] = React.useState('beco');
+  const [activeCategory, setActiveCategory] = React.useState({ text: 'Главная' });
 
-  function handleClickCategory(event) {
-    setActiveCategory(event.currentTarget.name);
+  function handleClickCategory(category) {
+    setActiveCategory(category);
   }
 
   return (
     <div className="app">
       <CategoryContext.Provider value={activeCategory}>
-        <Aside onClick={handleClickCategory} />
+        <Aside onCategoryClick={handleClickCategory} />
         <div className="app__container">
           <Header />
           <Main />
