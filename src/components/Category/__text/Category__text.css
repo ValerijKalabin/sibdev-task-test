@@ -43,3 +43,7 @@
     display: none;
   }
 }
+
+.category__text_opened {
+  display: block;
+}

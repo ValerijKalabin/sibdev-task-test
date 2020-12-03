@@ -41,3 +41,8 @@
     display: none;
   }
 }
+
+.aside__logo_opened {
+  display: flex;
+  padding: 41px;
+}

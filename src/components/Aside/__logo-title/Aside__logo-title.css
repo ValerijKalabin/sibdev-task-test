@@ -38,3 +38,7 @@
     display: none;
   }
 }
+
+.aside__logo-title_opened {
+  display: block;
+}

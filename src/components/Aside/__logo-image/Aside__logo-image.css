@@ -40,3 +40,8 @@
     height: 24px;
   }
 }
+
+.aside__logo-image_opened {
+  width: 50px;
+  height: 50px;
+}

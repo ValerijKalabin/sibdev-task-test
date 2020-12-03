@@ -9,3 +9,7 @@
     display: none;
   }
 }
+
+.aside__menu_opened {
+  display: block;
+}

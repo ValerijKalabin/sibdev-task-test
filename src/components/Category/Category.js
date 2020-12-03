@@ -5,7 +5,7 @@ import './__text/Category__text.css';
 import React from 'react';
 import CategoryContext from '../../contexts/CategoryContext';
 
-function Category({ category, onCategoryClick }) {
+function Category({ category, onCategoryClick, isOpened }) {
   const { name } = React.useContext(CategoryContext);
 
   function handleClick() {
@@ -21,7 +21,7 @@ function Category({ category, onCategoryClick }) {
         onClick={handleClick}
       >
         <div className="category__image">{category.icon}</div>
-        <p className={`category__text ${category.name === name && 'category__text_active'}`}>
+        <p className={`category__text ${category.name === name && 'category__text_active'} ${isOpened && 'category__text_opened'}`}>
           {category.text}
         </p>
       </button>
