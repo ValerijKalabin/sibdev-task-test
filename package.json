@@ -1,5 +1,6 @@
 {
   "name": "sibdev-task-test",
+  "homepage": "https://valerijkalabin.github.io/sibdev-task-test",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
