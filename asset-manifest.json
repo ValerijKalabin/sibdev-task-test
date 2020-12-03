@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/sibdev-task-test/static/css/main.0eadf3a4.chunk.css",
-    "main.js": "/sibdev-task-test/static/js/main.ffdb7e8f.chunk.js",
-    "main.js.map": "/sibdev-task-test/static/js/main.ffdb7e8f.chunk.js.map",
+    "main.css": "/sibdev-task-test/static/css/main.a7a7d981.chunk.css",
+    "main.js": "/sibdev-task-test/static/js/main.c0caf07e.chunk.js",
+    "main.js.map": "/sibdev-task-test/static/js/main.c0caf07e.chunk.js.map",
     "runtime-main.js": "/sibdev-task-test/static/js/runtime-main.e691aed9.js",
     "runtime-main.js.map": "/sibdev-task-test/static/js/runtime-main.e691aed9.js.map",
     "static/js/2.fc316ccd.chunk.js": "/sibdev-task-test/static/js/2.fc316ccd.chunk.js",
     "static/js/2.fc316ccd.chunk.js.map": "/sibdev-task-test/static/js/2.fc316ccd.chunk.js.map",
     "index.html": "/sibdev-task-test/index.html",
-    "static/css/main.0eadf3a4.chunk.css.map": "/sibdev-task-test/static/css/main.0eadf3a4.chunk.css.map",
+    "static/css/main.a7a7d981.chunk.css.map": "/sibdev-task-test/static/css/main.a7a7d981.chunk.css.map",
     "static/js/2.fc316ccd.chunk.js.LICENSE.txt": "/sibdev-task-test/static/js/2.fc316ccd.chunk.js.LICENSE.txt",
     "static/media/Aside__button.css": "/sibdev-task-test/static/media/button-aside.4b0224c7.svg",
     "static/media/icon-aside-closed.6fcd6653.svg": "/sibdev-task-test/static/media/icon-aside-closed.6fcd6653.svg",
@@ -27,7 +27,7 @@
   "entrypoints": [
     "static/js/runtime-main.e691aed9.js",
     "static/js/2.fc316ccd.chunk.js",
-    "static/css/main.0eadf3a4.chunk.css",
-    "static/js/main.ffdb7e8f.chunk.js"
+    "static/css/main.a7a7d981.chunk.css",
+    "static/js/main.c0caf07e.chunk.js"
   ]
 }
