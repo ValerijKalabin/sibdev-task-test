@@ -6,6 +6,9 @@ import './__subtitle/Card__subtitle.css';
 import './__sale/Card__sale.css';
 import './__action/Card__action.css';
 import './_hidden/Card_hidden.css';
+import './__substrate/Card__substrate.css';
+import './__top/Card__top.css';
+import './__bottom/Card__bottom.css';
 import React from 'react';
 import CategoryContext from '../../contexts/CategoryContext';
 
@@ -14,18 +17,22 @@ function Card({ card }) {
   const isHidden = name !== 'all' && card.category !== name;
 
   return (
-    <div className={`card ${isHidden && 'card_hidden'}`}>
-      <div className="card__info">
-        <div className="card__name">
-          <h3 className="card__title">{card.title}</h3>
-          <p className="card__subtitle">{card.subtitle}</p>
+    <div className={`card__substrate ${isHidden && 'card_hidden'}`}>
+      <div className="card__top" />
+      <div className="card__bottom" />
+      <div className="card">
+        <div className="card__info">
+          <div className="card__name">
+            <h3 className="card__title">{card.title}</h3>
+            <p className="card__subtitle">{card.subtitle}</p>
+          </div>
+          <div className="card__promo">
+            <h3 className="card__sale">{card.sale}</h3>
+            <p className="card__action">{card.action}</p>
+          </div>
         </div>
-        <div className="card__promo">
-          <h3 className="card__sale">{card.sale}</h3>
-          <p className="card__action">{card.action}</p>
-        </div>
+        <img className="card__image" src={card.image} alt={card.title} />
       </div>
-      <img className="card__image" src={card.image} alt={card.title} />
     </div>
   );
 }
