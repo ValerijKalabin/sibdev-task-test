@@ -5,3 +5,15 @@
   padding: 16px 0 16px 20px;
   margin: 0;
 }
+
+@media screen and (max-width: 900px) {
+  .card__info {
+    padding: 15px 0 15px 18px;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .card__info {
+    padding: 16px 0 16px 20px;
+  }
+}

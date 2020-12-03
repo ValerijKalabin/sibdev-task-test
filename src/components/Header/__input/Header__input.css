@@ -14,3 +14,9 @@
   border-radius: 50px;
   margin: 0;
 }
+
+@media screen and (max-width: 720px) {
+  .header__input {
+    font-size: 14px;
+  }
+}

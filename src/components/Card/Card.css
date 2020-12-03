@@ -42,3 +42,27 @@
   transform: rotate(45deg);
   z-index: 1;
 }
+
+@media screen and (max-width: 900px) {
+  .card {
+    height: 144px;
+  }
+  .card::before {
+    top: 70px;
+  }
+  .card::after {
+    top: 70px;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .card {
+    height: 130px;
+  }
+  .card::before {
+    top: 63px;
+  }
+  .card::after {
+    top: 63px;
+  }
+}

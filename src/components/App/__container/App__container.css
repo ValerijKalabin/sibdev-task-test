@@ -4,3 +4,45 @@
     padding: 0;
     margin: 0 0 0 240px;
 }
+
+@media screen and (max-width: 1200px) {
+  .app__container {
+    width: calc(100% - 104px);
+    margin: 0 0 0 104px;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .app__container {
+    width: calc(100% - 240px);
+    margin: 0 0 0 240px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .app__container {
+    width: calc(100% - 104px);
+    margin: 0 0 0 104px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .app__container {
+    width: calc(100% - 240px);
+    margin: 0 0 0 240px;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .app__container {
+    width: calc(100% - 104px);
+    margin: 0 0 0 104px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .app__container {
+    width: calc(100% - 12px);
+    margin: 0 0 0 12px;
+  }
+}

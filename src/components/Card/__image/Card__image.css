@@ -7,3 +7,17 @@
   padding: 0;
   margin: 0;
 }
+
+@media screen and (max-width: 900px) {
+  .card__image {
+    width: 104px;
+    height: 144px;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .card__image {
+    width: 89px;
+    height: 130px;
+  }
+}

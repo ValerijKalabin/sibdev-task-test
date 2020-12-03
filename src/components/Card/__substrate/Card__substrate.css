@@ -6,3 +6,16 @@
   border-radius: 10px;
   margin: 0;
 }
+
+@media screen and (max-width: 900px) {
+  .card__substrate {
+    height: 144px;
+  }
+}
+
+
+@media screen and (max-width: 580px) {
+  .card__substrate {
+    height: 130px;
+  }
+}

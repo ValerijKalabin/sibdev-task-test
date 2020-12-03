@@ -7,3 +7,15 @@
   box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.15);
   margin: 0;
 }
+
+@media screen and (max-width: 900px) {
+  .card__bottom {
+    height: 66px;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .card__bottom {
+    height: 59px;
+  }
+}

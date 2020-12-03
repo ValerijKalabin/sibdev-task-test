@@ -4,9 +4,11 @@ import './__logo-image/Aside__logo-image.css';
 import './__logo-title/Aside__logo-title.css';
 import './__menu/Aside__menu.css';
 import './__list/Aside__list.css';
+import './__button/Aside__button.css';
 import logo from '../../images/logo.svg';
 import categories from '../../data/categories';
 import Category from '../Category/Category';
+import button from '../../images/icon-aside-closed.svg';
 
 function Aside({ onCategoryClick }) {
   return (
@@ -26,6 +28,9 @@ function Aside({ onCategoryClick }) {
           ))}
         </ul>
       </menu>
+      <button className="aside__button">
+        <img className="aside__button-image" src={button} alt="Кнопка" />
+      </button>
     </aside>
   );
 }

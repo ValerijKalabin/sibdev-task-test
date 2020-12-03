@@ -13,3 +13,33 @@
 .category__text_active {
   color: #34ABE0;
 }
+
+@media screen and (max-width: 1200px) {
+  .category__text {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .category__text {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .category__text {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .category__text {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .category__text {
+    display: none;
+  }
+}
