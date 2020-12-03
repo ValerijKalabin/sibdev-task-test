@@ -44,6 +44,12 @@
   }
 }
 
+@media screen and (max-width: 420px) {
+  .category__text {
+    margin: 0;
+  }
+}
+
 .category__text_opened {
   display: block;
 }

@@ -39,10 +39,9 @@
 @media screen and (max-width: 420px) {
   .aside__logo {
     display: none;
+    padding: 40px 20px;
   }
-}
-
-.aside__logo_opened {
-  display: flex;
-  padding: 41px;
+  .aside__logo_opened {
+    display: flex;
+  }
 }

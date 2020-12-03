@@ -44,8 +44,17 @@
   .aside {
     width: 12px;
   }
+  .aside_opened {
+    width: 192px;
+  }
 }
 
 .aside_opened {
-  width: 240px;
+  width: 246px;
+}
+
+@media screen and (max-width: 420px) {
+  .aside_opened {
+    width: 192px;
+  }
 }

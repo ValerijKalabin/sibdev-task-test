@@ -23,3 +23,9 @@
 .category__btn_active {
   border-left: 3px solid #34ABE0;
 }
+
+@media screen and (max-width: 420px) {
+  .category__btn {
+    padding: 0 20px 0 17px;
+  }
+}
