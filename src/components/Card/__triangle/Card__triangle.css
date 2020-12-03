@@ -1,0 +1,32 @@
+.card__triangle {
+  position: absolute;
+  top: 74px;
+  box-sizing: border-box;
+  width: 9px;
+  height: 9px;
+  border: 1px solid transparent;
+  border-radius: 1px;
+  transform: rotate(45deg);
+  box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.15);
+  z-index: 3;
+}
+
+.card__triangle_position_left {
+  left: -5px;
+}
+
+.card__triangle_position_right {
+  right: -5px;
+}
+
+@media screen and (max-width: 900px) {
+  .card__triangle {
+    top: 66px;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .card__triangle {
+    top: 59px;
+  }
+}

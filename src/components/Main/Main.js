@@ -13,6 +13,9 @@ function Main() {
           <Card key={'card' + index} card={card} />
         ))}
       </section>
+      <div className="out">
+        <div className="in" />
+      </div>
     </main>
   );
 }

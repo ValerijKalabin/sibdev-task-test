@@ -9,6 +9,7 @@ import './_hidden/Card_hidden.css';
 import './__substrate/Card__substrate.css';
 import './__top/Card__top.css';
 import './__bottom/Card__bottom.css';
+import './__triangle/Card__triangle.css';
 import React from 'react';
 import CategoryContext from '../../contexts/CategoryContext';
 
@@ -18,8 +19,6 @@ function Card({ card }) {
 
   return (
     <div className={`card__substrate ${isHidden && 'card_hidden'}`}>
-      <div className="card__top" />
-      <div className="card__bottom" />
       <div className="card">
         <div className="card__info">
           <div className="card__name">
@@ -32,7 +31,11 @@ function Card({ card }) {
           </div>
         </div>
         <img className="card__image" src={card.image} alt={card.title} />
+        <div className="card__triangle card__triangle_position_left" />
+        <div className="card__triangle card__triangle_position_right" />
       </div>
+      <div className="card__top" />
+      <div className="card__bottom" />
     </div>
   );
 }
