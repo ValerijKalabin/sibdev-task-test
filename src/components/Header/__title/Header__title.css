@@ -11,7 +11,7 @@
   margin: 0 0 31px;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1300px) {
   .header__title {
     text-align: end;
   }

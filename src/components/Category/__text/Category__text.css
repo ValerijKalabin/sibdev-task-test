@@ -14,7 +14,7 @@
   color: #34ABE0;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1300px) {
   .category__text {
     display: none;
   }

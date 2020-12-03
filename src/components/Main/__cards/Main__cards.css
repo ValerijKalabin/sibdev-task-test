@@ -8,15 +8,15 @@
   gap: 20px;
 }
 
-@media screen and (max-width: 1400px) {
-  .main__cards {
-    padding: 27px 26px 100px;
-  }
-}
-
 @media screen and (max-width: 1100px) {
   .main__cards {
     grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .main__cards {
+    padding: 27px 27px 100px;
   }
 }
 

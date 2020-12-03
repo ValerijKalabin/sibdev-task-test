@@ -9,7 +9,7 @@
   margin: 0 0 0 10px;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1300px) {
   .aside__logo-title {
     display: none;
   }
