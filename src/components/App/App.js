@@ -15,6 +15,13 @@ function App() {
     text: 'Главная'
   });
 
+  function handleClickLogo() {
+    setActiveCategory({
+      name: 'all',
+      text: 'Главная'
+    });
+  }
+
   function handleClickCategory(category) {
     setActiveCategory(category);
   }
@@ -28,7 +35,10 @@ function App() {
     <div className="app">
       <SearchContext.Provider value={cardList}>
       <CategoryContext.Provider value={activeCategory}>
-        <Aside onCategoryClick={handleClickCategory} />
+        <Aside
+          onCategoryClick={handleClickCategory}
+          onLogoClick={handleClickLogo}
+        />
         <div className="app__container">
           <Header onInputChange={handleChangeInput} />
           <Main />

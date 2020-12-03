@@ -12,7 +12,7 @@ import buttonOpen from '../../images/icon-aside-closed.svg';
 import buttonClose from '../../images/icon-aside-opened.svg';
 import React from 'react';
 
-function Aside({ onCategoryClick }) {
+function Aside({ onLogoClick, onCategoryClick }) {
   const [isOpened, setIsOpened] = React.useState(false);
 
   function handleClick() {
@@ -21,7 +21,7 @@ function Aside({ onCategoryClick }) {
 
   return (
     <aside className={`aside ${isOpened && 'aside_opened'}`}>
-      <div className={`aside__logo ${isOpened && 'aside__logo_opened'}`}>
+      <div className={`aside__logo ${isOpened && 'aside__logo_opened'}`} onClick={onLogoClick}>
         <img className={`aside__logo-image ${isOpened && 'aside__logo-image_opened'}`} src={logo} alt="Логотип" />
         <h1 className={`aside__logo-title ${isOpened && 'aside__logo-title_opened'}`}>BECO</h1>
       </div>
